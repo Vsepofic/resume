@@ -3,25 +3,29 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79P0U.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ptsans/v16/jizaRExUiTo99u79P0U.ttf) format('truetype');
 }
 @font-face {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ptsans/v12/jizfRExUiTo99u79B_mh4Ok.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ptsans/v16/jizfRExUiTo99u79B_mh4Ok.ttf) format('truetype');
 }
 @font-face {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ptserif/v12/EJRVQgYoZZY2vCFuvDFR.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/ptserif/v16/EJRVQgYoZZY2vCFuvDFR.ttf) format('truetype');
+}
+.container-fluid {
+  padding-bottom: 10px;
 }
 .wrapper {
   font-family: "PT Sans";
-  margin: 50px auto;
+  margin: 50px auto 20px;
+  padding-bottom: 0px;
   cursor: default;
 }
 .wrapper .resumeRow {
@@ -75,6 +79,9 @@
 .wrapper .resumeRow .resumeAside .titleAside {
   font-size: 24px;
   text-decoration: underline #7d7d7d;
+}
+.wrapper .resumeRow .resumeAside .scills ul {
+  padding-left: 20px;
 }
 .wrapper .resumeRow .resumeAside .scills ul li {
   list-style: disc;

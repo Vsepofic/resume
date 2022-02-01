@@ -4,10 +4,13 @@
 @color-link2: rgb(255, 250, 245);
 @color-hover: rgb(125, 125, 125);
 @color-orang: orangered;
-
+.container-fluid {
+  padding-bottom: 10px;
+}
 .wrapper {
   font-family: "PT Sans";
-  margin: 50px auto;
+  margin: 50px auto 20px;
+  padding-bottom: 0px;
   cursor: default;
   & .resumeRow {
     font-size: 18px;
@@ -69,6 +72,7 @@
       }
       & .scills {
         & ul {
+          padding-left: 20px;
           & li {
             list-style: disc;
             color: @color-orang;
